@@ -1,5 +1,9 @@
 # known key bruteforcer
+
 This little rust projects bruteforces the ~/.ssh/known_hosts file with incredible speed.
+
+Idea of this project came from this perl implementation which was too slow for my taste:
+https://github.com/xme/known_hosts_bruteforcer
 
 # Build
 
