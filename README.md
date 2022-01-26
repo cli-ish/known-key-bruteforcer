@@ -5,11 +5,13 @@ This little rust projects bruteforces the ~/.ssh/known_hosts file with incredibl
 Idea of this project came from this perl implementation which was too slow for my taste:
 https://github.com/xme/known_hosts_bruteforcer
 
-# Build
+# Get or Build
 
-To use this repo you must build the project with the release flag or use the
+Can be pulled directly from the v1.0.0
+release https://github.com/cli-ish/known-key-bruteforcer/releases/download/v1.0.0/
+
+To build this repo you must build the project with the release flag or use the
 `build.sh`.
-
 (The normal build performance is significant slower 1/100 of the release speed)
 
 # Usage
