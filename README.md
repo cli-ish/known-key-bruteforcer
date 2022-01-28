@@ -5,6 +5,11 @@ This little rust projects bruteforces the ~/.ssh/known_hosts file with incredibl
 Idea of this project came from this perl implementation which was too slow for my taste:
 https://github.com/xme/known_hosts_bruteforcer
 
+In a Test setup with a AMD Ryzen 7 5800X 8-Core Processor we got with 11 threads a performance of 308000 Hashes per ms which equals to 308 MH/s
+A Test with 28 Hashes was done in 45 minutes (1.0.0.0 to 254.255.255.255) and found all valid hash combos.
+
+If more speed is required its advised to use hashcat with a stronger cpu like this repos suggests https://github.com/chris408/known_hosts-hashcat
+
 # Get or Build
 
 Can be pulled directly from the v1.0.0
