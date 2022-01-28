@@ -9,7 +9,7 @@ In a Test setup with a AMD Ryzen 7 5800X 8-Core Processor we got with 11 threads
 
 A Test with 28 Hashes was done in 45 minutes (1.0.0.0 to 254.255.255.255) and found all valid hash combos.
 
-If more speed is required its advised to use hashcat with a stronger cpu like this repos suggests https://github.com/chris408/known_hosts-hashcat
+If more speed is required its advised to use hashcat with a strong gpu like this repos suggests https://github.com/chris408/known_hosts-hashcat
 
 # Get or Build
 
